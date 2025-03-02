@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+
+*{
+    margin:0;
+}
+body{
+    font-family: "Poppins",sans-serif;
+}
+nav{
+    display: flex;
+    padding: 0 8px;
+    height: 72px;;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    gap:24px;
+    list-style-type: none;
+    font-weight: 600;
+
+}
+.contact-section h1{
+    font-Size: 48px;
+    font-weight: 800;
+}
+
+.contact-section p{
+    font-weight: 500;
+
+}
+.containerr{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.primary-btn{
+    padding: 18px 10px;
+    background-color: black;
+    color: white;
+    min-width: 220px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap:8px;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.top-btn{
+    display: flex;
+    gap:32px;
+
+}
+.outline-btn{
+    padding: 18px;
+    border:1px solid black;
+    color: black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 220px;
+    font-size: 16px;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    cursor: pointer;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    position: relative;
+}
+.form-control input{
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    height: 40px;
+    padding: 0 8px;
+}
+.form-control label{
+position: absolute;
+top: -12px;
+left: 10px;
+background-color: white;
+padding: 0 10px;
+font-size: 14px;
+}
+.contact-form form{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    flex-direction: column;
+}
+.mojo img{
+    width: 100%;
+    height: auto;
+    padding-left: 100px;
+}
+.form-control textarea{
+    padding: 8px;
+}
